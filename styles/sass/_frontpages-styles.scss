@@ -1,0 +1,35 @@
+// Frontpage design
+.front {
+    margin-top: 100px;
+    min-width: 150px;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    .icon {
+        color: rgb(103, 58, 183);
+        font-size: 30px;
+    } // Title of the front pages
+    .title {
+        color: rgb(103, 58, 183);
+    } // form-mid section design
+    form {
+        margin-top: 30px;
+        .mdl-textfield__label {
+            font-size: 15px;
+            width: 100%;
+        }
+        button {
+            width: 100%;
+        }
+    } // Link fields below the form
+    .linkfield {
+        width: 100%;
+        color: rgb(103, 58, 183);
+        margin-top: 20px;
+    } // warning message
+    .message {
+        color: red;
+    }
+}

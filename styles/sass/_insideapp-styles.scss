@@ -1,0 +1,48 @@
+// CSS design when the user is been loggedin.
+.insideapplication {
+    position: relative;
+    overflow: visible;
+    .demo-card-square.mdl-card {
+        margin-top: 20px;
+        margin: auto;
+        width: 90%;
+        height: 350px;
+    }
+    .demo-card-square>.mdl-card__title {
+        color: #fff;
+        background: bottom right 15% no-repeat rgb(103, 58, 183);
+    }
+    .pointsstyle {
+        color: white;
+    }
+    .taskdeletebtn {
+        margin-top: 40px;
+    } // Title design
+    .insideTitle {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .dashboard {
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .task {
+        padding-top: 30px;
+        margin: auto;
+        width: 55%;
+    } // Create a new task designs
+    .taskcreator {
+        margin-left: 5%;
+        width: 80%;
+        &__list {
+            width: 80%;
+            margin-left: 5%;
+            margin-bottom: 50px;
+        }
+    }
+    .btninside {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}

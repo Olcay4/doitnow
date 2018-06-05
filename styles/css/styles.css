@@ -1,0 +1,65 @@
+.front {
+  margin-top: 100px;
+  min-width: 150px;
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .front .icon {
+    color: #673ab7;
+    font-size: 30px; }
+  .front .title {
+    color: #673ab7; }
+  .front form {
+    margin-top: 30px; }
+    .front form .mdl-textfield__label {
+      font-size: 15px;
+      width: 100%; }
+    .front form button {
+      width: 100%; }
+  .front .linkfield {
+    width: 100%;
+    color: #673ab7;
+    margin-top: 20px; }
+  .front .message {
+    color: red; }
+
+.insideapplication {
+  position: relative;
+  overflow: visible; }
+  .insideapplication .demo-card-square.mdl-card {
+    margin-top: 20px;
+    margin: auto;
+    width: 90%;
+    height: 350px; }
+  .insideapplication .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background: bottom right 15% no-repeat #673ab7; }
+  .insideapplication .pointsstyle {
+    color: white; }
+  .insideapplication .taskdeletebtn {
+    margin-top: 40px; }
+  .insideapplication .insideTitle {
+    width: 100%;
+    margin-left: 5%; }
+  .insideapplication .dashboard {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%; }
+  .insideapplication .task {
+    padding-top: 30px;
+    margin: auto;
+    width: 55%; }
+  .insideapplication .taskcreator {
+    margin-left: 5%;
+    width: 80%; }
+    .insideapplication .taskcreator__list {
+      width: 80%;
+      margin-left: 5%;
+      margin-bottom: 50px; }
+  .insideapplication .btninside {
+    margin-top: 5px;
+    margin-left: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
